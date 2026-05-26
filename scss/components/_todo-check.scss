@@ -1,0 +1,30 @@
+.todo-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-check input {
+    display: none;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    display: inline-block;
+    transition: background var(--transition-fast);
+    transition: border var(--transition-fast);
+
+    @media (min-width: 48rem) {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.todo-check input:checked + .checkmark {
+    background: url('/images/icon-check.svg') no-repeat center,
+        var(--check-gradient);
+    border: none;
+}

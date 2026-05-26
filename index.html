@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/deveins-symbol.svg">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>Todo app</title>
+</head>
+<body>
+
+  <div class="app">
+    <div class="container">
+
+      <header class="header">
+        <div class="logo">TODO</div>
+        <div class="theme-toggle" id="theme-toggle">
+          <img src="./images/icon-moon.svg" id="theme-icon" alt="Theme Switch Icon" />
+        </div>
+      </header>
+
+      <form class="todo-input" id="todo-form">
+        <label class="todo-check">
+          <span class="checkmark"></span>
+        </label>
+        <input type="text" id="todo-input" placeholder="Create a new todo..." />
+      </form>
+
+      <div class="todo-card">
+
+        <div class="todo-list" id="todo-list">
+
+          <!--
+          <div class="todo-item todo-completed">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">Complete online JavaScript course</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+        
+          <!--
+          <div class="todo-item">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">Jog around the park 3x</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+
+          <!--
+          <div class="todo-item">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">10 minutes meditation</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+
+          <!--
+          <div class="todo-item">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">Read for 1 hour</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+
+          <!--
+          <div class="todo-item">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">Pick up groceries</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+
+          <!--
+          <div class="todo-item">
+            <label class="todo-left">
+              <span class="todo-check">
+                <input type="checkbox" />
+                <span class="checkmark todo-checkmark"></span>
+              </span>
+              <p class="todo-text">Complete todo App on Frontend Mentor</p>
+            </label>
+            <img src="/images/icon-cross.svg" class="todo-delete"/>
+          </div>
+          -->
+
+        </div>
+
+        <div class="todo-controls" id="todo-controls">
+
+          <span class="todo-count" id="todo-count">5 items left</span>
+
+          <div class="todo-filters">
+            <button data-filter="all" class="active-filter">All</button>
+            <button data-filter="active">Active</button>
+            <button data-filter="completed">Completed</button>
+          </div>
+
+          <button class="todo-clear" id="todo-clear">Clear Completed</button>
+
+        </div>
+        
+      </div>
+
+      <p class="drag-instruction">Drag and drop to reorder list</p>
+
+      <div class="modal-overlay hidden" id="error-modal">
+        <div class="modal-box">
+          <p>Please enter a todo</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

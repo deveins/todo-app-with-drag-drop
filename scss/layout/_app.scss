@@ -1,0 +1,53 @@
+.app {
+    min-height: 100vh;
+    background-image: var(--bg-image-mobile);
+    background-color: var(--bg-main);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+
+    @media (min-width: 48rem) {
+        background-image: var(--bg-image-desktop);
+    }
+}
+
+.container {
+    padding: 3rem 1.5rem;
+
+    @media (min-width: 48rem) {
+        max-width: 33.75rem;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 4.875rem;
+        padding-bottom: 3.125rem;
+    }
+}
+
+.drag-instruction {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-box {
+    background-color: var(--bg-surface);
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    color: var(--text-primary);
+    font-size: 0.9375rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.hidden {
+    display: none;
+}

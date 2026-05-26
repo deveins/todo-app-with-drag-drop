@@ -1,0 +1,26 @@
+:root[data-theme="light"] {
+    //backgrounds
+    --bg-image-mobile: url('/images/bg-mobile-light.jpg');
+    --bg-image-desktop: url('/images/bg-desktop-light.jpg');
+
+    --bg-main: hsl(0, 0%, 98%);
+    --bg-surface: hsl(0, 0%, 100%);
+
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 20px 40px rgba(0, 0, 0, 0.04);
+    --check-gradient: linear-gradient(135deg,hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+
+    //text
+    --text-inverse: hsl(0, 0%, 100%);
+    --text-primary: hsl(235, 19%, 35%);
+    --text-secondary: hsl(236, 9%, 61%);
+    --text-completed: hsl(233, 11%, 84%);
+    
+    --accent-color: hsl(220, 98%, 61%);
+
+    //borders
+    --border-color: hsl(233, 11%, 84%);
+
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+}
