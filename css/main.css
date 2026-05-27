@@ -1,6 +1,6 @@
 :root[data-theme=light] {
-  --bg-image-mobile: url('images/bg-mobile-light.jpg');
-  --bg-image-desktop: url('images/bg-desktop-light.jpg');
+  --bg-image-mobile: url('./images/bg-mobile-light.jpg');
+  --bg-image-desktop: url('./images/bg-desktop-light.jpg');
   --bg-main: hsl(0, 0%, 98%);
   --bg-surface: hsl(0, 0%, 100%);
   --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
@@ -17,8 +17,8 @@
 }
 
 :root[data-theme=dark] {
-  --bg-image-mobile: url('../images/bg-mobile-dark.jpg');
-  --bg-image-desktop: url('../images/bg-desktop-dark.jpg');
+  --bg-image-mobile: url('./images/bg-mobile-dark.jpg');
+  --bg-image-desktop: url('./images/bg-desktop-dark.jpg');
   --bg-main: hsl(235, 21%, 11%);
   --bg-surface: hsl(235, 24%, 19%);
   --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
