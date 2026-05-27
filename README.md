@@ -51,7 +51,7 @@ This project helped me deeply understand:
 
 ## 🔗 Live Demo
 
-- Live Site: [[Add your live link here](https://deveins.github.io/todo-app-with-drag-drop/)]
+- Live Site: [[live Site](https://deveins.github.io/todo-app-with-drag-drop/)]
 - GitHub Repo: https://github.com/deveins
 
 ---
