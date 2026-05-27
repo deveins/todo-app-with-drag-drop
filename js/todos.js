@@ -79,7 +79,7 @@ function renderTodos() {
                 </span>
                 <p class="todo-text">${todo.text}</p>
             </label>
-            <img src="./images/icon-cross.svg" class="todo-delete"/>
+            <img src="images/icon-cross.svg" class="todo-delete"/>
         </div>`;
     });
 
