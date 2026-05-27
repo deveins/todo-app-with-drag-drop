@@ -221,7 +221,7 @@ button, input {
 }
 
 .todo-check input:checked + .checkmark {
-  background: url("/images/icon-check.svg") no-repeat center, var(--check-gradient);
+  background: url("/todo-app-with-drag-drop/images/icon-check.svg") no-repeat center, var(--check-gradient);
   border: none;
 }
 
